@@ -14,8 +14,8 @@ const resources = {
       "reset": "Reset All",
       "watermarkSettings": "Watermark Settings",
       "socialMediaImageProcessor": "Social Media Image Processor",
-      "resetAll": "Reset All",
-      "watermarkSettingsButton": "Watermark Settings",
+      "resetAll": "Reset Frame",
+      "watermarkSettingsButton": "Frame Settings",
       "textConfiguration": "Text Configuration",
       "imageDescription": "Image Description",
       "enterImageDescription": "Enter image description",
@@ -28,9 +28,9 @@ const resources = {
       "frameConfiguration": "Frame Configuration",
       "frameConfigDescription": "Upload your logo and bottom images to create a 1080x1080 frame",
       "logoTopLeft": "Logo (Top Left)",
-      "logoDescription": "Logo will be placed in the top-left corner (15% of frame size)",
+      "logoDescription": "Logo will be placed in the top-left corner (10% of frame size)",
       "bottomImage": "Bottom Image",
-      "bottomImageDescription": "Up to 3 images will be placed at the bottom (15% height, 80% total width)",
+      "bottomImageDescription": "Upload a PNG image of 1080X100 to be placed at the bottom of the frame",
       "watermarkImage": "Watermark Image",
       "watermarkDescription": "Add a PNG watermark with customizable opacity, size, and position",
       "saveFrameConfiguration": "Save Frame Configuration",
@@ -41,7 +41,8 @@ const resources = {
       "noImageSelected": "No image selected",
       "backToHome": "Back to Home",
       "watermarkConfigTitle": "Watermark Configuration",
-      "watermarkConfigDescription": "Configure your 1080x1080 frame layout with logo and bottom images"
+      "watermarkConfigDescription": "Configure your 1080x1080 frame layout with logo and bottom images",
+      "sampleFrameImages": "Sample Frame Images"
     }
   },
   dv: {
@@ -56,8 +57,8 @@ const resources = {
       "reset": "އަލުން ފަށާ",
       "watermarkSettings": "ވޯޓަރމާކް ސެޓިންގްސް",
       "socialMediaImageProcessor": "ސޯޝަލް މީޑިއާ އިމޭޖް ޕްރޮސެސަރ",
-      "resetAll": "އަލުން ފަށާ",
-      "watermarkSettingsButton": "ވޯޓަރމާކް ސެޓިންގްސް",
+      "resetAll": "ފްރޭމް ފުހެލާ",
+      "watermarkSettingsButton": "ފްރޭމު ސެޓިންގްސް",
       "textConfiguration": "ޓެކްސްޓް ކޮންފިގަރޭޝަން",
       "imageDescription": "ފޮޓޯގެ ތަފްސީލް",
       "enterImageDescription": "ފޮޓޯގެ ތަފްސީލް ލިޔުއްވާ",
@@ -72,7 +73,7 @@ const resources = {
       "logoTopLeft": "ލޯގޯ (މަތީ ވައަތު ކަނުގައި)",
       "logoDescription": "ލޯގޯ ބެހެއްޓޭނީ މަތީ ވައަތު ކަނުގައި (ފްރޭމްގެ 15%)",
       "bottomImage": "ތިރީގެ ފޮޓޯ",
-      "bottomImageDescription": "ތިރީގައި ބެހެއްޓޭނީ 3 ފޮޓޯ (އުސްމިނުގައި 15%، ޖުމްލަ ފުޅާމިނުގައި 80%)",
+      "bottomImageDescription": "1080X100 PNG ފޮޓޯއެއް ތިރިއަށް ލުމަށް އަޕްލޯޑް ކުރައްވާ",
       "watermarkImage": "ވޯޓަރމާކް ފޮޓޯ",
       "watermarkDescription": "އޯޕަސިޓީ، ސައިޒް، އަދި ޕޮޒިޝަން ބަދަލުކުރެވޭ PNG ވޯޓަރމާކެއް އިތުރުކުރައްވާ",
       "saveFrameConfiguration": "ފްރޭމް ކޮންފިގަރޭޝަން ސޭވްކުރައްވާ",
@@ -83,7 +84,8 @@ const resources = {
       "noImageSelected": "ފޮޓޯއެއް ހޮވިފައެއް ނުވޭ",
       "backToHome": "މައި ޞަފްޙާއަށް",
       "watermarkConfigTitle": "ވޯޓަރމާކް ކޮންފިގަރޭޝަން",
-      "watermarkConfigDescription": "ލޯގޯ އަދި ތިރީގެ ފޮޓޯތަކާއެކު 1080x1080 ފްރޭމް ލޭއައުޓް ކޮންފިގަރ ކުރައްވާ"
+      "watermarkConfigDescription": "ލޯގޯ އަދި ތިރީގެ ފޮޓޯތަކާއެކު 1080x1080 ފްރޭމް ލޭއައުޓް ކޮންފިގަރ ކުރައްވާ",
+      "sampleFrameImages": "ނަމޫނާ ފައިލްތައް"
     }
   }
 };

@@ -17,7 +17,7 @@ export const Header = ({ onReset }: HeaderProps) => {
         <img src="/framly-logo.png" alt="FRAMLY" className="w-12 h-12" />
         <h1 className="text-2xl sm:text-3xl font-bold">FRAMLY</h1>
       </div>
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 px-20">
         <Button variant="outline" onClick={onReset}>
           <Trash2 className="mr-2 h-4 w-4" />
           {t("resetAll")}

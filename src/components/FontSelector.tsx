@@ -41,7 +41,7 @@ export const FontSelector = ({
         <SelectTrigger>
           <SelectValue placeholder="Select font" />
         </SelectTrigger>
-        <SelectContent>
+        <SelectContent className="menu dropdown-content bg-white z-[1] p-2 shadow">
           {GOOGLE_FONTS.map((font) => (
             <SelectItem key={font} value={font}>
               <span style={{ fontFamily: font }}>{font}</span>

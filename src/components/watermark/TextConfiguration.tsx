@@ -43,7 +43,7 @@ export const TextConfiguration = ({
         />
       </div>
 
-      <FontSelector
+      <FontSelector className="menu dropdown-content bg-red-100 rounded-box z-[1] w-52 p-2 shadow"
         selectedFont={selectedFont}
         onFontChange={onFontChange}
         onCustomFontUpload={onCustomFontUpload}

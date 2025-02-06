@@ -45,6 +45,20 @@ export const WatermarkLayout = ({ onSave }: WatermarkLayoutProps) => {
     onSave(getCurrentConfig());
   };
 
+  const handleDownload = () => {
+    // URL of the ZIP file
+    const fileUrl = '/files/sample-frame-images.zip'; // Update this path
+    const fileName = 'sample-frame-images.zip'; // Name of the downloaded file
+
+    // Create a temporary anchor element
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = fileName; // Set the download attribute
+    document.body.appendChild(link); // Append to the DOM
+    link.click(); // Trigger the download
+    document.body.removeChild(link); // Clean up
+  };
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <Card className="p-6 space-y-8">
@@ -53,6 +67,9 @@ export const WatermarkLayout = ({ onSave }: WatermarkLayoutProps) => {
           <p className="text-sm text-muted-foreground">
             {t('frameConfigDescription')}
           </p>
+          <Button onClick={handleDownload}>
+          {t("sampleFrameImages")}
+          </Button>
         </div>
 
         <LogoUploader 
