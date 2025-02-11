@@ -4,6 +4,7 @@ import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { Upload } from "lucide-react";
 import { toast } from "sonner";
+import { useTranslation } from "react-i18next";
 
 interface FontSelectorProps {
   selectedFont: string;
@@ -34,7 +35,7 @@ export const FontSelector = ({
       toast.error("Please upload a valid font file (.otf or .ttf)");
     }
   };
-
+  const { t } = useTranslation();
   return (
     <div className="space-y-4">
       <Select value={selectedFont} onValueChange={onFontChange}>
@@ -64,7 +65,7 @@ export const FontSelector = ({
           className="w-full"
         >
           <Upload className="w-4 h-4 mr-2" />
-          Upload Custom Font (Thaana Support)
+          {t('customFontUpload')}
         </Button>
       </div>
     </div>

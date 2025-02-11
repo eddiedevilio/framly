@@ -25,8 +25,8 @@ const resources = {
       "preview": "Preview",
       "enterTextToPreview": "Enter text to preview",
       "uploadDescription": "Upload your images to process them for social media - includes square cropping, background blur for portrait images, and watermarking.",
-      "frameConfiguration": "Frame Configuration",
-      "frameConfigDescription": "Upload your logo and bottom images to create a 1080x1080 frame",
+      "frameConfiguration": "Configure your Frame",
+      "frameConfigDescription": "Upload your logo, bottom (footer), watermark to configure",
       "logoTopLeft": "Logo (Top Left)",
       "logoDescription": "Logo will be placed in the top-left corner (10% of frame size)",
       "bottomImage": "Bottom Image",
@@ -40,9 +40,10 @@ const resources = {
       "positionY": "Position Y (%)",
       "noImageSelected": "No image selected",
       "backToHome": "Back to Home",
-      "watermarkConfigTitle": "Watermark Configuration",
+      "watermarkConfigTitle": "Frame Configuration",
       "watermarkConfigDescription": "Configure your 1080x1080 frame layout with logo and bottom images",
-      "sampleFrameImages": "Sample Frame Images"
+      "sampleFrameImages": "Sample Frame Images",
+      "customFontUpload": "Upload Custom Font (Thaana Support)"
     }
   },
   dv: {
@@ -69,7 +70,7 @@ const resources = {
       "enterTextToPreview": "ޕްރިވިއު ކުރުމަށް ޓެކްސްޓް ލިޔުއްވާ",
       "uploadDescription": "ސޯޝަލް މީޑިއާއަށް ފޮޓޯ ޕްރޮސެސް ކުރުމަށް ފޮޓޯ އަޕްލޯޑް ކުރައްވާ - ހިމެނެނީ ހަތަރެސްކަން ކްރޮޕިންގ، ޕޯޓްރެއިޓް ފޮޓޯތަކަށް ބެކްގްރައުންޑް ބްލަރ، އަދި ވޯޓަރމާކް",
       "frameConfiguration": "ފްރޭމް ކޮންފިގަރޭޝަން",
-      "frameConfigDescription": "1080x1080 ފްރޭމެއް ހެދުމަށް ލޯގޯ އަދި ތިރީގެ ފޮޓޯތައް އަޕްލޯޑް ކުރައްވާ",
+      "frameConfigDescription": "ފްރޭމެއް ހެދުމަށް ލޯގޯ އަދި ތިރީގެ ފޮޓޯތައް އަޕްލޯޑް ކުރައްވާ",
       "logoTopLeft": "ލޯގޯ (މަތީ ވައަތު ކަނުގައި)",
       "logoDescription": "ލޯގޯ ބެހެއްޓޭނީ މަތީ ވައަތު ކަނުގައި (ފްރޭމްގެ 15%)",
       "bottomImage": "ތިރީގެ ފޮޓޯ",
@@ -83,9 +84,10 @@ const resources = {
       "positionY": "ޕޮޒިޝަން Y (%)",
       "noImageSelected": "ފޮޓޯއެއް ހޮވިފައެއް ނުވޭ",
       "backToHome": "މައި ޞަފްޙާއަށް",
-      "watermarkConfigTitle": "ވޯޓަރމާކް ކޮންފިގަރޭޝަން",
+      "watermarkConfigTitle": "ފްރޭމު ކޮންފިގަރޭޝަން",
       "watermarkConfigDescription": "ލޯގޯ އަދި ތިރީގެ ފޮޓޯތަކާއެކު 1080x1080 ފްރޭމް ލޭއައުޓް ކޮންފިގަރ ކުރައްވާ",
-      "sampleFrameImages": "ނަމޫނާ ފައިލްތައް"
+      "sampleFrameImages": "ނަމޫނާ ފައިލްތައް",
+      "customFontUpload":"ބޭނުންފުޅު ފޮންޓެއް އަޕްލޯޑްކުރުމަށް - ތާނަ ފޮންޓު ބޭނުންކުރެވޭނެ"
     }
   }
 };

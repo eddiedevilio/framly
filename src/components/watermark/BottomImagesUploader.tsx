@@ -2,6 +2,7 @@ import { ImageUploader } from "../ImageUploader";
 import { toast } from "sonner";
 import { Button } from "../ui/button";
 import { X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 interface BottomImagesUploaderProps {
   bottomImages: string[];
@@ -18,11 +19,11 @@ export const BottomImagesUploader = ({
     onBottomImagesChange([]);
     toast.success("Image removed successfully");
   };
-
+  const { t } = useTranslation();
   return (
     <div className="space-y-4">
       <div className="space-y-1">
-        <h3 className="text-lg font-semibold">Bottom Image</h3>
+        <h3 className="text-lg font-semibold">{t('bottomImage')}</h3>
         {description && (
           <p className="text-sm text-muted-foreground">{description}</p>
         )}

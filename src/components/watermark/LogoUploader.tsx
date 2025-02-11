@@ -1,5 +1,6 @@
 import { ImageUploader } from "../ImageUploader";
 import { toast } from "sonner";
+import { useTranslation } from "react-i18next";
 
 interface LogoUploaderProps {
   logo?: string;
@@ -8,10 +9,11 @@ interface LogoUploaderProps {
 }
 
 export const LogoUploader = ({ logo, onLogoChange, description }: LogoUploaderProps) => {
+  const { t } = useTranslation();
   return (
     <div className="space-y-4">
       <div className="space-y-1">
-        <h3 className="text-lg font-semibold">Logo (Top Left)</h3>
+        <h3 className="text-lg font-semibold">{t('logoTopLeft')}</h3>
         {description && (
           <p className="text-sm text-muted-foreground">{description}</p>
         )}
