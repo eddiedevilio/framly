@@ -43,7 +43,8 @@ const resources = {
       "watermarkConfigTitle": "Frame Configuration",
       "watermarkConfigDescription": "Configure your 1080x1080 frame layout with logo and bottom images",
       "sampleFrameImages": "Sample Frame Images",
-      "customFontUpload": "Upload Custom Font (Thaana Support)"
+      "customFontUpload": "Upload Custom Font (Thaana Support)",
+      "privacyStatement": "✨ Privacy Statement: Uploaded images will not be stored in any database or storage; they will only be processed through your browser. ✨"
     }
   },
   dv: {
@@ -87,7 +88,8 @@ const resources = {
       "watermarkConfigTitle": "ފްރޭމު ކޮންފިގަރޭޝަން",
       "watermarkConfigDescription": "ލޯގޯ އަދި ތިރީގެ ފޮޓޯތަކާއެކު 1080x1080 ފްރޭމް ލޭއައުޓް ކޮންފިގަރ ކުރައްވާ",
       "sampleFrameImages": "ނަމޫނާ ފައިލްތައް",
-      "customFontUpload":"ބޭނުންފުޅު ފޮންޓެއް އަޕްލޯޑްކުރުމަށް - ތާނަ ފޮންޓު ބޭނުންކުރެވޭނެ"
+      "customFontUpload":"ބޭނުންފުޅު ފޮންޓެއް އަޕްލޯޑްކުރުމަށް - ތާނަ ފޮންޓު ބޭނުންކުރެވޭނެ",
+      "privacyStatement": "✨ އަޕްލޯޑްކުރެވޭ އެއްވެސް ފޮތޯއެއް މިއެޕްގެ އެއްވެސްތާކު ރައްކައުކުރެވިގެން ނުދާނެ. ހުރިހާ ހަރަކާތެއް ކުރިޔަށްދާނީ ތިޔަފަރާތުގެ ބްރޯޒާ ތެރޭގަ ✨"
     }
   }
 };

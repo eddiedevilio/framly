@@ -18,6 +18,7 @@ export const ImageProcessingSection = ({
     <div>
       <p className="text-muted-foreground mb-4">
         {t("uploadDescription")}
+        <p>{t("privacyStatement")}</p>
       </p>
       <ImageProcessor 
         text={text}
